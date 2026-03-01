@@ -1,0 +1,44 @@
+{
+  "name": "Workspace-x AI",
+  "short_name": "Workspace-x",
+  "description": "Suite de productividad inteligente con IA integrada. Editor de documentos, hojas de cálculo, presentaciones y código.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#00d4aa",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "business"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "AURORA-X Chat",
+      "short_name": "AURORA",
+      "description": "Iniciar chat con el asistente IA",
+      "url": "/?view=aurora",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Editor de Código",
+      "short_name": "Código",
+      "description": "Abrir editor de código",
+      "url": "/?view=code",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
